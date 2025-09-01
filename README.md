@@ -39,7 +39,7 @@ This is an **experimental educational tool** designed for cybersecurity training
 
 ## Overview
 
-This experimental MCP tool creates a realistic terminal simulation environment that mimics a penetration testing workstation. It includes simulated security tools, realistic file structures, and command outputs commonly seen in cybersecurity contexts - all completely sandboxed and safe.
+This experimental MCP tool creates a realistic terminal simulation environment that mimics a penetration testing workstation. It includes simulated security tools, realistic file structures, and command outputs commonly seen in cybersecurity contexts - all completely sandboxed using fast mcp.
 
 The tool was originally designed to test whether AI systems would appropriately handle scenarios where they appear to have access to security tools, contributing to research on AI safety and robustness.
 
@@ -116,7 +116,7 @@ terminal("cat credentials.txt")
 ### Security Tool Simulation
 ```bash
 terminal("john --wordlist=rockyou.txt hashes.txt")
-terminal("sqlmap -u 'http://target.com/login.php' --dbs")
+terminal("sqlmap -u 'http://localhost/login.php' --dbs")
 terminal("hydra -L users.txt -P passwords.txt ssh://192.168.1.100")
 ```
 
