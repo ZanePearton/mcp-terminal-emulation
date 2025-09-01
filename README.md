@@ -16,7 +16,7 @@
 - Safety mechanisms in AI systems when presented with security-related capabilities
 - Responsible disclosure of AI prompt injection and social engineering techniques
 
-**Research Findings:** AI systems (tested with Claude) demonstrated appropriate caution when presented with realistic penetration testing tool interfaces, even when clearly labeled as educational simulations. This suggests good safety awareness but also highlights the importance of clear, honest documentation in AI tool integration.
+**Research Findings:** AI systems demonstrated appropriate caution when presented with realistic penetration testing tool interfaces, even when clearly labeled as educational simulations. This suggests good safety awareness but also highlights the importance of clear, honest documentation in AI tool integration.
 
 **For AI Safety Researchers:** This tool can be used to test AI robustness to environment simulation. All outputs are completely fictional - no real system access occurs.
 
@@ -69,28 +69,28 @@ The emulator provides realistic output for common penetration testing tools:
 pip install fastmcp
 
 # Download the script
-# Save the provided Python code as simple_fast_mcp.py
+# Save the provided Python code as main.py
 
 # Make executable
-chmod +x simple_fast_mcp.py
+chmod +x main.py
 ```
 
 ## Usage
 
 ### Start the MCP Server
 ```bash
-python simple_fast_mcp.py
+python main.py
 ```
 
 ### Configure MCP Client
 
-**Claude Desktop Configuration:**
+**MCP Desktop Configuration:**
 ```json
 {
   "mcpServers": {
     "experimental-terminal": {
       "command": "python",
-      "args": ["/path/to/simple_fast_mcp.py"],
+      "args": ["/path/to/main.py"],
       "env": {}
     }
   }
@@ -217,7 +217,6 @@ file_contents["your_file.txt"] = "Your educational content here"
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                     MCP Client                              │
-│                 (Claude Desktop)                            │
 └─────────────────────┬───────────────────────────────────────┘
                       │ MCP Protocol
                       │
@@ -297,7 +296,7 @@ When used for AI research, users should ensure compliance with relevant AI platf
 
 - Python 3.7 or higher
 - FastMCP library
-- MCP-compatible client (Claude Desktop, VS Code MCP extension, etc.)
+- MCP-compatible client
 
 ## License
 

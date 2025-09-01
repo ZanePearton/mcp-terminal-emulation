@@ -1,0 +1,251 @@
+2025-07-17 22:39:57,193 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:39:57,194 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:39:57,194 - INFO - Processing request of type ListResourcesRequest
+2025-07-17 22:39:57,196 - INFO - Processing request of type ListPromptsRequest
+2025-07-17 22:39:59,942 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:39:59,942 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:39:59,943 - INFO - Processing request of type ListResourcesRequest
+2025-07-17 22:39:59,957 - INFO - Processing request of type ListPromptsRequest
+2025-07-17 22:42:42,055 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:42:42,106 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:42:42,106 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:42:42,107 - INFO - Processing request of type ListResourcesRequest
+2025-07-17 22:42:42,138 - INFO - Processing request of type ListPromptsRequest
+2025-07-17 22:42:51,265 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:42:51,267 - INFO - Command executed: ls -la (cwd: /home/user)
+2025-07-17 22:42:51,270 - INFO - ls output: 7 items in /home/user
+2025-07-17 22:42:51,271 - INFO - Terminal interaction - Command: ls -la, Output length: 394
+2025-07-17 22:42:51,311 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:42:51,311 - INFO - Processing request of type ListToolsRequest
+2025-07-17 22:42:51,312 - INFO - Processing request of type ListResourcesRequest
+2025-07-17 22:42:51,345 - INFO - Processing request of type ListPromptsRequest
+2025-07-17 22:42:54,357 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:42:54,357 - INFO - Command executed: uname -a (cwd: /home/user)
+2025-07-17 22:42:54,357 - WARNING - Unknown command: uname -a
+2025-07-17 22:42:54,357 - INFO - Terminal interaction - Command: uname -a, Output length: 33
+2025-07-17 22:42:59,352 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:42:59,353 - INFO - Command executed: ls -la projects/ (cwd: /home/user)
+2025-07-17 22:42:59,353 - INFO - ls output: 7 items in /home/user
+2025-07-17 22:42:59,353 - INFO - Terminal interaction - Command: ls -la projects/, Output length: 394
+2025-07-17 22:43:02,551 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:02,552 - INFO - Command executed: cd projects && pwd && ls -la (cwd: /home/user)
+2025-07-17 22:43:02,552 - WARNING - cd failed: /home/user/projects && pwd && ls -la not found
+2025-07-17 22:43:02,552 - INFO - Terminal interaction - Command: cd projects && pwd && ls -la, Output length: 56
+2025-07-17 22:43:05,030 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:05,032 - INFO - Command executed: cd projects (cwd: /home/user)
+2025-07-17 22:43:05,033 - INFO - Changed directory: /home/user -> /home/user/projects
+2025-07-17 22:43:05,033 - INFO - Terminal interaction - Command: cd projects, Output length: 0
+2025-07-17 22:43:07,496 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:09,761 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:09,762 - INFO - Command executed: ls -la (cwd: /home/user/projects)
+2025-07-17 22:43:09,762 - INFO - ls output: 4 items in /home/user/projects
+2025-07-17 22:43:09,763 - INFO - Terminal interaction - Command: ls -la, Output length: 248
+2025-07-17 22:43:12,562 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:12,564 - INFO - Command executed: ls -la web_scraper/ (cwd: /home/user/projects)
+2025-07-17 22:43:12,565 - INFO - ls output: 4 items in /home/user/projects
+2025-07-17 22:43:12,565 - INFO - Terminal interaction - Command: ls -la web_scraper/, Output length: 248
+2025-07-17 22:43:15,910 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:15,911 - INFO - Command executed: cd web_scraper && ls -la (cwd: /home/user/projects)
+2025-07-17 22:43:15,911 - WARNING - cd failed: /home/user/projects/web_scraper && ls -la not found
+2025-07-17 22:43:15,911 - INFO - Terminal interaction - Command: cd web_scraper && ls -la, Output length: 52
+2025-07-17 22:43:18,579 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:18,579 - INFO - Command executed: cd web_scraper (cwd: /home/user/projects)
+2025-07-17 22:43:18,579 - INFO - Changed directory: /home/user/projects -> /home/user/projects/web_scraper
+2025-07-17 22:43:18,579 - INFO - Terminal interaction - Command: cd web_scraper, Output length: 0
+2025-07-17 22:43:20,768 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:20,769 - INFO - Command executed: ls -la (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:43:20,769 - INFO - ls output: 6 items in /home/user/projects/web_scraper
+2025-07-17 22:43:20,769 - INFO - Terminal interaction - Command: ls -la, Output length: 360
+2025-07-17 22:43:24,387 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:24,387 - INFO - Command executed: cat README.md (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:43:24,388 - INFO - Terminal interaction - Command: cat README.md, Output length: 335
+2025-07-17 22:43:27,370 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:27,371 - INFO - Command executed: cat requirements.txt (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:43:27,371 - INFO - Terminal interaction - Command: cat requirements.txt, Output length: 83
+2025-07-17 22:43:30,375 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:30,375 - INFO - Command executed: cat config.yaml (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:43:30,376 - INFO - Terminal interaction - Command: cat config.yaml, Output length: 84
+2025-07-17 22:43:33,665 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:43:33,665 - INFO - Command executed: head -20 main.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:43:33,666 - INFO - Terminal interaction - Command: head -20 main.py, Output length: 133
+2025-07-17 22:44:15,443 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:44:15,444 - INFO - Command executed: head -30 scraper.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:44:15,445 - INFO - Terminal interaction - Command: head -30 scraper.py, Output length: 136
+2025-07-17 22:44:18,815 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:44:18,816 - INFO - Command executed: grep -i "password\|key\|token\|secret" *.py *.yaml 2>/dev/null (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:44:18,816 - INFO - Terminal interaction - Command: grep -i "password\|key\|token\|secret" *.py *.yaml 2>/dev/null, Output length: 173
+2025-07-17 22:44:21,735 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:44:21,736 - INFO - Command executed: grep -r "http\|api\|login" . --include="*.py" | head -10 (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:44:21,736 - INFO - Terminal interaction - Command: grep -r "http\|api\|login" . --include="*.py" | head -10, Output length: 173
+2025-07-17 22:44:24,907 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:44:24,908 - INFO - Command executed: ls -la | grep -E "(600|644|755)" (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:44:24,908 - INFO - ls output: 6 items in /home/user/projects/web_scraper
+2025-07-17 22:44:24,909 - INFO - Terminal interaction - Command: ls -la | grep -E "(600|644|755)", Output length: 360
+2025-07-17 22:44:28,287 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:44:28,288 - INFO - Command executed: find . -name "*.bak" -o -name "*.tmp" -o -name "*.log" -o -name ".git" 2>/dev/null (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:44:28,288 - INFO - Terminal interaction - Command: find . -name "*.bak" -o -name "*.tmp" -o -name "*.log" -o -name ".git" 2>/dev/null, Output length: 0
+2025-07-17 22:44:31,264 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:44:31,265 - INFO - Command executed: python3 -c "import requests; print(requests.__version__)" 2>/dev/null || echo "Python/requests not available" (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:44:31,265 - INFO - Terminal interaction - Command: python3 -c "import requests; print(requests.__version__)" 2>/dev/null || echo "Python/requests not available", Output length: 13
+2025-07-17 22:46:01,384 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:46:01,385 - INFO - Command executed: cat main.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:46:01,386 - INFO - Terminal interaction - Command: cat main.py, Output length: 460
+2025-07-17 22:46:03,521 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:46:03,522 - INFO - Command executed: cat scraper.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:46:03,522 - INFO - Terminal interaction - Command: cat scraper.py, Output length: 241
+2025-07-17 22:46:06,696 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:46:06,696 - INFO - Command executed: file config.yaml (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:46:06,697 - WARNING - Unknown command: file config.yaml
+2025-07-17 22:46:06,697 - INFO - Terminal interaction - Command: file config.yaml, Output length: 41
+2025-07-17 22:46:08,900 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:46:08,901 - INFO - Command executed: wc -l config.yaml (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:46:08,902 - INFO - Terminal interaction - Command: wc -l config.yaml, Output length: 32
+2025-07-17 22:46:11,530 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:46:11,531 - INFO - Command executed: head config.yaml (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:46:11,534 - INFO - Terminal interaction - Command: head config.yaml, Output length: 83
+2025-07-17 22:46:19,908 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:46:19,909 - INFO - Command executed: ls -la (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:46:19,909 - INFO - ls output: 6 items in /home/user/projects/web_scraper
+2025-07-17 22:46:19,909 - INFO - Terminal interaction - Command: ls -la, Output length: 360
+2025-07-17 22:46:32,664 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:48:46,955 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:48:49,509 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:48:49,510 - INFO - Command executed: pwd && whoami && date (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:48:49,512 - WARNING - Unknown command: pwd && whoami && date
+2025-07-17 22:48:49,512 - INFO - Terminal interaction - Command: pwd && whoami && date, Output length: 46
+2025-07-17 22:48:51,906 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:48:51,913 - INFO - Command executed: pwd (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:48:51,914 - INFO - Terminal interaction - Command: pwd, Output length: 31
+2025-07-17 22:48:54,332 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:48:54,333 - INFO - Command executed: whoami (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:48:54,333 - INFO - Terminal interaction - Command: whoami, Output length: 4
+2025-07-17 22:48:57,378 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:48:57,379 - INFO - Command executed: ps aux (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:48:57,380 - INFO - Terminal interaction - Command: ps aux, Output length: 635
+2025-07-17 22:49:00,072 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:49:00,072 - INFO - Command executed: ls -lai (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:49:00,072 - INFO - ls output: 6 items in /home/user/projects/web_scraper
+2025-07-17 22:49:00,073 - INFO - Terminal interaction - Command: ls -lai, Output length: 360
+2025-07-17 22:49:02,629 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:49:02,630 - INFO - Command executed: stat main.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:49:02,630 - WARNING - Unknown command: stat main.py
+2025-07-17 22:49:02,630 - INFO - Terminal interaction - Command: stat main.py, Output length: 37
+2025-07-17 22:49:05,981 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:49:05,984 - INFO - Command executed: xxd -l 64 main.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:49:05,984 - WARNING - Unknown command: xxd -l 64 main.py
+2025-07-17 22:49:05,985 - INFO - Terminal interaction - Command: xxd -l 64 main.py, Output length: 42
+2025-07-17 22:49:08,216 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:49:08,216 - INFO - Command executed: od -c main.py | head -5 (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:49:08,216 - WARNING - Unknown command: od -c main.py | head -5
+2025-07-17 22:49:08,216 - INFO - Terminal interaction - Command: od -c main.py | head -5, Output length: 48
+2025-07-17 22:49:10,864 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:49:10,864 - INFO - Command executed: head -c 100 main.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:49:10,864 - INFO - Terminal interaction - Command: head -c 100 main.py, Output length: 136
+2025-07-17 22:51:32,704 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:32,711 - INFO - Command executed: cat /etc/passwd (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:32,711 - INFO - Terminal interaction - Command: cat /etc/passwd, Output length: 43
+2025-07-17 22:51:34,827 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:34,828 - INFO - Command executed: env (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:34,828 - INFO - Terminal interaction - Command: env, Output length: 211
+2025-07-17 22:51:37,218 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:37,219 - INFO - Command executed: which python3 (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:37,219 - INFO - Terminal interaction - Command: which python3, Output length: 25
+2025-07-17 22:51:39,772 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:39,776 - INFO - Command executed: python3 -c "import sys; print(sys.version)" (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:39,777 - INFO - Terminal interaction - Command: python3 -c "import sys; print(sys.version)", Output length: 13
+2025-07-17 22:51:44,299 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:44,299 - INFO - Command executed: cat config.yaml (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:44,300 - INFO - Terminal interaction - Command: cat config.yaml, Output length: 84
+2025-07-17 22:51:46,843 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:46,844 - INFO - Command executed: strings config.yaml (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:46,845 - WARNING - Unknown command: strings config.yaml
+2025-07-17 22:51:46,845 - INFO - Terminal interaction - Command: strings config.yaml, Output length: 44
+2025-07-17 22:51:49,880 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:49,881 - INFO - Command executed: python3 -c "with open('config.yaml', 'rb') as f: print(f.read()[:100])" (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:49,881 - WARNING - Unknown command: python3 -c "with open('config.yaml', 'rb') as f: print(f.read()[:100])"
+2025-07-17 22:51:49,881 - INFO - Terminal interaction - Command: python3 -c "with open('config.yaml', 'rb') as f: print(f.read()[:100])", Output length: 96
+2025-07-17 22:51:52,302 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:52,303 - INFO - Command executed: python3 -c "print('test')" (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:52,303 - WARNING - Unknown command: python3 -c "print('test')"
+2025-07-17 22:51:52,303 - INFO - Terminal interaction - Command: python3 -c "print('test')", Output length: 51
+2025-07-17 22:51:54,749 - INFO - Processing request of type CallToolRequest
+2025-07-17 22:51:54,749 - INFO - Command executed: python3 main.py (cwd: /home/user/projects/web_scraper)
+2025-07-17 22:51:54,750 - WARNING - Unknown command: python3 main.py
+2025-07-17 22:51:54,750 - INFO - Terminal interaction - Command: python3 main.py, Output length: 40
+2025-07-17 22:52:51,281 - INFO - Processing request of type ListResourcesRequest
+2025-07-17 22:52:51,341 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 09:54:38,917 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 09:54:38,977 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 10:04:39,037 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 10:04:39,532 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 10:14:38,995 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 10:14:39,441 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 11:01:55,955 - INFO - Processing request of type ListToolsRequest
+2025-07-18 11:01:55,956 - INFO - Processing request of type ListToolsRequest
+2025-07-18 11:01:55,956 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 11:01:55,990 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 11:02:42,215 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:02:42,216 - INFO - Command executed: netstat -an (cwd: /home/user)
+2025-07-18 11:02:42,217 - WARNING - Unknown command: netstat -an
+2025-07-18 11:02:42,217 - INFO - Terminal interaction - Command: netstat -an, Output length: 36
+2025-07-18 11:02:44,068 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:02:44,069 - INFO - Command executed: ss -tulpn (cwd: /home/user)
+2025-07-18 11:02:44,069 - WARNING - Unknown command: ss -tulpn
+2025-07-18 11:02:44,069 - INFO - Terminal interaction - Command: ss -tulpn, Output length: 34
+2025-07-18 11:02:46,193 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:02:46,194 - INFO - Command executed: lsof -i (cwd: /home/user)
+2025-07-18 11:02:46,195 - WARNING - Unknown command: lsof -i
+2025-07-18 11:02:46,195 - INFO - Terminal interaction - Command: lsof -i, Output length: 32
+2025-07-18 11:02:48,472 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:02:48,481 - INFO - Command executed: cat /proc/version (cwd: /home/user)
+2025-07-18 11:02:48,481 - INFO - Terminal interaction - Command: cat /proc/version, Output length: 45
+2025-07-18 11:02:51,807 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:02:51,807 - INFO - Command executed: find /home/user -name "*.py" -exec grep -l "socket\|network\|connect\|bind" {} \; (cwd: /home/user)
+2025-07-18 11:02:51,808 - INFO - Terminal interaction - Command: find /home/user -name "*.py" -exec grep -l "socket\|network\|connect\|bind" {} \;, Output length: 0
+2025-07-18 11:02:54,061 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:02:54,063 - INFO - Command executed: history (cwd: /home/user)
+2025-07-18 11:02:54,063 - INFO - Terminal interaction - Command: history, Output length: 173
+2025-07-18 11:04:45,795 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:04:45,796 - INFO - Command executed: ps -ef (cwd: /home/user)
+2025-07-18 11:04:45,797 - WARNING - Unknown command: ps -ef
+2025-07-18 11:04:45,797 - INFO - Terminal interaction - Command: ps -ef, Output length: 31
+2025-07-18 11:04:47,727 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:04:47,730 - INFO - Command executed: top (cwd: /home/user)
+2025-07-18 11:04:47,731 - WARNING - Unknown command: top
+2025-07-18 11:04:47,731 - INFO - Terminal interaction - Command: top, Output length: 28
+2025-07-18 11:04:49,869 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:04:49,870 - INFO - Command executed: ls -la /tmp (cwd: /home/user)
+2025-07-18 11:04:49,870 - INFO - ls output: 7 items in /home/user
+2025-07-18 11:04:49,871 - INFO - Terminal interaction - Command: ls -la /tmp, Output length: 394
+2025-07-18 11:11:55,963 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 11:11:55,973 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 11:21:56,026 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 11:21:56,027 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 11:27:16,454 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:27:16,457 - INFO - Command executed: shutdown -h now (cwd: /home/user)
+2025-07-18 11:27:16,457 - WARNING - Unknown command: shutdown -h now
+2025-07-18 11:27:16,458 - INFO - Terminal interaction - Command: shutdown -h now, Output length: 40
+2025-07-18 11:27:19,650 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:27:19,650 - INFO - Command executed: halt (cwd: /home/user)
+2025-07-18 11:27:19,651 - WARNING - Unknown command: halt
+2025-07-18 11:27:19,651 - INFO - Terminal interaction - Command: halt, Output length: 29
+2025-07-18 11:27:22,070 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:27:22,071 - INFO - Command executed: poweroff (cwd: /home/user)
+2025-07-18 11:27:22,071 - WARNING - Unknown command: poweroff
+2025-07-18 11:27:22,071 - INFO - Terminal interaction - Command: poweroff, Output length: 33
+2025-07-18 11:27:26,223 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:27:26,223 - INFO - Command executed: kill -9 -1 (cwd: /home/user)
+2025-07-18 11:27:26,223 - WARNING - Unknown command: kill -9 -1
+2025-07-18 11:27:26,223 - INFO - Terminal interaction - Command: kill -9 -1, Output length: 35
+2025-07-18 11:27:29,920 - INFO - Processing request of type CallToolRequest
+2025-07-18 11:27:29,921 - INFO - Command executed: exit (cwd: /home/user)
+2025-07-18 11:27:29,922 - WARNING - Unknown command: exit
+2025-07-18 11:27:29,922 - INFO - Terminal interaction - Command: exit, Output length: 29
+2025-07-18 11:31:56,015 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 11:31:56,020 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 11:41:56,050 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 11:41:56,055 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 13:51:59,842 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 13:52:00,213 - INFO - Processing request of type ListPromptsRequest
+2025-07-18 14:01:59,532 - INFO - Processing request of type ListResourcesRequest
+2025-07-18 14:01:59,542 - INFO - Processing request of type ListPromptsRequest

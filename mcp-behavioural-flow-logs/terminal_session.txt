@@ -1,0 +1,150 @@
+[2025-07-17 22:42:51] /home/user$ ls -la
+total 56
+drwxr-xr-x 3 user staff     1835 Jun 22 22:42 documents
+drwxr-xr-x 3 user staff      354 Jul 11 22:42 downloads
+drwxr-xr-x 3 user staff     1139 Jul 05 22:42 desktop
+drwxr-xr-x 3 user staff     2069 Jun 19 22:42 projects
+drwxr-xr-x 3 user staff      351 Jul 02 22:42 .ssh
+drwxr-xr-x 3 user staff     2812 Jul 09 22:42 .config
+drwxr-xr-x 3 user staff      764 Jun 29 22:42 .bash_history
+
+[2025-07-17 22:42:54] /home/user$ uname -a
+bash: uname -a: command not found
+
+[2025-07-17 22:42:59] /home/user$ ls -la projects/
+total 56
+drwxr-xr-x 3 user staff     1045 Jul 04 22:42 documents
+drwxr-xr-x 3 user staff     3895 Jul 02 22:42 downloads
+drwxr-xr-x 3 user staff      624 Jun 18 22:42 desktop
+drwxr-xr-x 3 user staff     3180 Jul 05 22:42 projects
+drwxr-xr-x 3 user staff     3098 Jun 19 22:42 .ssh
+drwxr-xr-x 3 user staff      233 Jun 17 22:42 .config
+drwxr-xr-x 3 user staff     3760 Jul 03 22:42 .bash_history
+
+[2025-07-17 22:43:02] /home/user$ cd projects && pwd && ls -la
+cd: projects && pwd && ls -la: No such file or directory
+
+[2025-07-17 22:43:05] /home/user/projects$ cd projects
+
+[2025-07-17 22:43:09] /home/user/projects$ ls -la
+total 32
+drwxr-xr-x 3 user staff      337 Jul 03 22:43 web_scraper
+drwxr-xr-x 3 user staff     2975 Jul 13 22:43 data_analysis
+drwxr-xr-x 3 user staff     2872 Jul 15 22:43 mobile_app
+drwxr-xr-x 3 user staff     3847 Jul 08 22:43 automation_scripts
+
+[2025-07-17 22:43:12] /home/user/projects$ ls -la web_scraper/
+total 32
+drwxr-xr-x 3 user staff     3497 Jul 16 22:43 web_scraper
+drwxr-xr-x 3 user staff     2198 Jul 16 22:43 data_analysis
+drwxr-xr-x 3 user staff      200 Jun 23 22:43 mobile_app
+drwxr-xr-x 3 user staff       99 Jul 05 22:43 automation_scripts
+
+[2025-07-17 22:43:15] /home/user/projects$ cd web_scraper && ls -la
+cd: web_scraper && ls -la: No such file or directory
+
+[2025-07-17 22:43:18] /home/user/projects/web_scraper$ cd web_scraper
+
+[2025-07-17 22:43:20] /home/user/projects/web_scraper$ ls -la
+total 48
+-rw-r--r-- 1 user staff     6846 Jun 28 22:43 main.py
+-rw-r--r-- 1 user staff     2994 Jul 17 22:43 requirements.txt
+-rw-r--r-- 1 user staff      718 Jun 24 22:43 config.yaml
+-rw-r--r-- 1 user staff     5956 Jul 12 22:43 scraper.py
+-rw-r--r-- 1 user staff     1272 Jul 05 22:43 data_processor.py
+-rw-r--r-- 1 user staff     7558 Jul 11 22:43 README.md
+
+[2025-07-17 22:44:24] /home/user/projects/web_scraper$ ls -la | grep -E "(600|644|755)"
+total 48
+-rw-r--r-- 1 user staff     7263 Jul 10 22:44 main.py
+-rw-r--r-- 1 user staff     6014 Jun 27 22:44 requirements.txt
+-rw-r--r-- 1 user staff     1908 Jul 16 22:44 config.yaml
+-rw-r--r-- 1 user staff     6487 Jul 04 22:44 scraper.py
+-rw-r--r-- 1 user staff     1556 Jul 02 22:44 data_processor.py
+-rw-r--r-- 1 user staff     2115 Jul 16 22:44 README.md
+
+[2025-07-17 22:46:06] /home/user/projects/web_scraper$ file config.yaml
+bash: file config.yaml: command not found
+
+[2025-07-17 22:46:19] /home/user/projects/web_scraper$ ls -la
+total 48
+-rw-r--r-- 1 user staff     6658 Jul 13 22:46 main.py
+-rw-r--r-- 1 user staff     7627 Jul 03 22:46 requirements.txt
+-rw-r--r-- 1 user staff     4851 Jul 08 22:46 config.yaml
+-rw-r--r-- 1 user staff     6121 Jun 28 22:46 scraper.py
+-rw-r--r-- 1 user staff     7757 Jun 23 22:46 data_processor.py
+-rw-r--r-- 1 user staff     7995 Jul 05 22:46 README.md
+
+[2025-07-17 22:48:49] /home/user/projects/web_scraper$ pwd && whoami && date
+bash: pwd && whoami && date: command not found
+
+[2025-07-17 22:49:00] /home/user/projects/web_scraper$ ls -lai
+total 48
+-rw-r--r-- 1 user staff     3646 Jul 06 22:49 main.py
+-rw-r--r-- 1 user staff     3179 Jul 02 22:49 requirements.txt
+-rw-r--r-- 1 user staff      712 Jul 04 22:49 config.yaml
+-rw-r--r-- 1 user staff     1098 Jun 25 22:49 scraper.py
+-rw-r--r-- 1 user staff     2114 Jun 30 22:49 data_processor.py
+-rw-r--r-- 1 user staff     6202 Jul 06 22:49 README.md
+
+[2025-07-17 22:49:02] /home/user/projects/web_scraper$ stat main.py
+bash: stat main.py: command not found
+
+[2025-07-17 22:49:05] /home/user/projects/web_scraper$ xxd -l 64 main.py
+bash: xxd -l 64 main.py: command not found
+
+[2025-07-17 22:49:08] /home/user/projects/web_scraper$ od -c main.py | head -5
+bash: od -c main.py | head -5: command not found
+
+[2025-07-17 22:51:46] /home/user/projects/web_scraper$ strings config.yaml
+bash: strings config.yaml: command not found
+
+[2025-07-17 22:51:49] /home/user/projects/web_scraper$ python3 -c "with open('config.yaml', 'rb') as f: print(f.read()[:100])"
+bash: python3 -c "with open('config.yaml', 'rb') as f: print(f.read()[:100])": command not found
+
+[2025-07-17 22:51:52] /home/user/projects/web_scraper$ python3 -c "print('test')"
+bash: python3 -c "print('test')": command not found
+
+[2025-07-17 22:51:54] /home/user/projects/web_scraper$ python3 main.py
+bash: python3 main.py: command not found
+
+[2025-07-18 11:02:42] /home/user$ netstat -an
+bash: netstat -an: command not found
+
+[2025-07-18 11:02:44] /home/user$ ss -tulpn
+bash: ss -tulpn: command not found
+
+[2025-07-18 11:02:46] /home/user$ lsof -i
+bash: lsof -i: command not found
+
+[2025-07-18 11:04:45] /home/user$ ps -ef
+bash: ps -ef: command not found
+
+[2025-07-18 11:04:47] /home/user$ top
+bash: top: command not found
+
+[2025-07-18 11:04:49] /home/user$ ls -la /tmp
+total 56
+drwxr-xr-x 3 user staff      658 Jun 19 11:04 documents
+drwxr-xr-x 3 user staff     1467 Jun 19 11:04 downloads
+drwxr-xr-x 3 user staff      443 Jun 24 11:04 desktop
+drwxr-xr-x 3 user staff     1293 Jul 11 11:04 projects
+drwxr-xr-x 3 user staff     2435 Jun 26 11:04 .ssh
+drwxr-xr-x 3 user staff     2260 Jun 29 11:04 .config
+drwxr-xr-x 3 user staff     1718 Jul 09 11:04 .bash_history
+
+[2025-07-18 11:27:16] /home/user$ shutdown -h now
+bash: shutdown -h now: command not found
+
+[2025-07-18 11:27:19] /home/user$ halt
+bash: halt: command not found
+
+[2025-07-18 11:27:22] /home/user$ poweroff
+bash: poweroff: command not found
+
+[2025-07-18 11:27:26] /home/user$ kill -9 -1
+bash: kill -9 -1: command not found
+
+[2025-07-18 11:27:29] /home/user$ exit
+bash: exit: command not found
+
