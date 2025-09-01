@@ -6,7 +6,7 @@
 ![Experimental](https://img.shields.io/badge/status-experimental-orange.svg)
 ![Educational](https://img.shields.io/badge/purpose-educational-green.svg)
 ![AI Research](https://img.shields.io/badge/AI-red%20teaming-red.svg)
-
+![Fast MCP](https://img.shields.io/badge/Fast-MCP-blue.svg)
 ## AI Safety Research Context
 
 **This project was developed as an AI red teaming experiment** to test how AI systems respond when presented with realistic-looking security tool interfaces through MCP (Model Context Protocol). The research explores:
